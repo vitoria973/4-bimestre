@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fã-Clube do Justin Bieber</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: linear-gradient(to right, #ff4f6d, #ff6b92);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #ff6b92;
+            padding: 10px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffe6ec;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #ff4f6d;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .galeria img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+        }
+
+        .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .quiz-question {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .quiz-options button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            background-color: #ff4f6d;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .quiz-options button:hover {
+            background-color: #ff6b92;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ff6b92;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fã-Clube do Justin Bieber</h1>
+    <p>O melhor espaço para os Beliebers do Brasil!</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#discografia">Discografia</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#junte-se">Junte-se</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Justin Bieber</h2>
+        <p>Justin Drew Bieber nasceu em 1º de março de 1994, em Stratford, Ontário, Canadá. Ele foi descoberto no YouTube pelo empresário Scooter Braun em 2008 e rapidamente tornou-se um fenômeno global.</p>
+        <p>Com hits como "Baby", "Sorry", "Peaches" e "Love Yourself", Bieber é um dos artistas mais premiados e influentes da indústria da música.</p>
+    </section>
+
+    <!-- Curiosidades -->
+    <section id="curiosidades">
+        <h2>Curiosidades</h2>
+        <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <li>Justin Bieber é o primeiro artista a ter 10 músicas com mais de 1 bilhão de streams no Spotify.</li>
+            <li>Ele é fluente em inglês e francês, além de tocar vários instrumentos musicais, incluindo guitarra, piano e bateria.</li>
+            <li>Justin é um filantropo ativo e já doou milhões de dólares para caridade ao longo dos anos.</li>
+        </ul>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria">
+            <img src="https://via.placeholder.com/300" alt="Justin Bieber">
+            <img src="https://via.placeholder.com/300" alt="Justin Bieber">
+            <img src="https://via.placeholder.com/300" alt="Justin Bieber">
+        </div>
+    </section>
+
+    <!-- Discografia -->
+    <section id="discografia">
+        <h2>Discografia</h2>
+        <p>Álbuns de estúdio mais famosos:</p>
+        <ul>
+            <li><strong>My World 2.0</strong> (2010): Inclui "Baby".</li>
+            <li><strong>Believe</strong> (2012): Inclui "Boyfriend".</li>
+            <li><strong>Purpose</strong> (2015): Inclui "Sorry" e "Love Yourself".</li>
+            <li><strong>Justice</strong> (2021): Inclui "Peaches".</li>
+        </ul>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz">
+        <h2>Quiz: Quanto você sabe sobre Justin?</h2>
+        <div class="quiz-container">
+            <p class="quiz-question" id="quiz-question">Carregando pergunta...</p>
+            <div class="quiz-options" id="quiz-options"></div>
+        </div>
+    </section>
+
+    <!-- Junte-se -->
+    <section id="junte-se">
+        <h2>Junte-se ao Fã-Clube</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Por que você ama Justin Bieber?" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Fã-Clube do Justin Bieber | Criado com ❤ por Beliebers</p>
+    <a href="#topo">Voltar ao topo</a>
+</footer>
+
+<script>
+    // Código do Quiz permanece o mesmo
+</script>
+
+</body>
+</html>
